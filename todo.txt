@@ -1,0 +1,34 @@
+TODO
+
+* My Experience - Timeline
+
+1. Original images + shape and opacity modifications
+    1.1 Logo
+    1.2 Welcome
+    1.3 Keep Dreaming  - Child on Moon
+    1.5 Sapphire Goal Trees
+    1.6 About Me Page
+
+2. Youtube Video Incorporation without Errors
+
+3. Fonts
+
+    3.1 Welcome - Permanent Marker
+    3.2 Cursive Text Font
+    3.3 Paragraph text Formatations
+
+4. Clean Code - Rethink classes and ids and their global and local use
+
+5. Javascript
+
+   5.1 Current Page Focus
+   5.2 Serach Bar Functionality
+   5.3 Make Form Work
+   5.4 Make Trees Gallery Work
+
+6. New Features
+
+   6.1 Create Blog Category Filter --> Make it work
+   6.2 Create Page Numbering System --> Make it work
+
+7. Read More Bttns - New Design

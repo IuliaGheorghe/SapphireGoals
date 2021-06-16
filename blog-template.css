@@ -1,0 +1,14 @@
+#blog-content-container{
+    padding: 8rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#blog-content-container img{
+    margin-bottom: 50px;
+    align-self: center;
+}
+
+p{
+    padding: 10px 0;
+}
