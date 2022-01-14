@@ -1,0 +1,46 @@
+#goal-content{
+    display: flex;
+    flex-direction: column;
+    padding: 5vw;
+}
+
+#goal-content img{
+    align-self: center;
+    width: 480px;
+}
+
+h1{
+    padding: 30px;
+    font-family: cursive;
+    text-align: center;
+}
+
+.goal-desc{
+    padding: 50px 0;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.content{
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: 100%;
+}
+
+.new-step{
+    width: 60%;
+    align-self: center;
+    padding: 30px 20px;
+    margin: 10px;
+    background-color: #eee;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px){
+    #goal-content img {
+        width: 60vw;
+    }
+
+}

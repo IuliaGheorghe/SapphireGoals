@@ -1,0 +1,305 @@
+#welcome{
+    background: url("https://cdn.pixabay.com/photo/2015/07/28/13/20/dancer-864394_960_720.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#welcome h1{
+    color: var(--themeStandardColor);
+    font-size: 6.5rem;
+    font-family: "Permanent Marker",Sans-serif;
+}
+
+#welcome h3{
+    text-transform: uppercase;
+    letter-spacing: 3.5px;
+    font-weight: 100;
+    padding: 20px;
+}
+
+#search-bar{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#search-bar input{
+    padding: 12px;
+    width: 60%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 1px solid #ddd;
+    background-color: transparent;
+    font-size: 1.2rem;
+}
+
+#search-bar button{
+    background-color: var(--themeStandardColor);
+    padding: 12px;
+    width: 100px;
+    color: #fff;
+    border: 1px;
+    border-radius: 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-color: var(--themeStandardColor);
+    font-size: 16px;
+    margin:0;
+    transition: 300ms;
+}
+
+#search-bar button:hover{
+    background-color: var(--themeHoverColor);
+    border-color: var(--themeHoverColor);
+    cursor: pointer;
+}
+
+.quote-info{
+    display: flex;
+}
+
+.quote-info img{
+    width: 50%;
+}
+
+.quote-info>div{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote{
+    font-family: cursive;
+    font-weight: bold;
+    text-align: center;
+    font-size: 2.5rem;
+    color: var(--themeStandardColor);
+}
+
+.author{
+    padding: 30px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.song-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.artists{
+    font-size: 1.4rem;
+    font-weight: 100;
+    text-align: center;
+}
+
+.song-title{
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 20px;
+    color: var(--themeStandardColor);
+    text-align: center;
+}
+
+iframe{
+    width: 760px;
+    height: 430px;
+}
+
+.latest-goals-container{
+    margin:20px;
+}
+
+.goal{
+    margin: 20px 0;
+}
+
+.goal-description{
+    letter-spacing: 1px;
+    padding-left: 20px;
+}
+
+.posts{
+    height: auto;
+}
+
+.post-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+/* .post-container:nth-child(odd){
+    flex-direction: row-reverse;
+} */
+
+.content .post-name{
+    color: var(--themeStandardColor);
+    text-transform: none;
+    font-weight: 300;
+    padding: 0;
+    padding-bottom: 20px;
+}
+
+.posts-read-more{
+    text-decoration: none;
+    color: var(--themeStandardColor);
+    padding: 8px 0;
+    /* border-top: 2px solid var(--themeStandardColor); */
+    /* border-bottom: 2px dotted var(--themeStandardColor); */
+    /* text-align: center; */
+    margin: 12px 0 0 0;
+
+}
+
+.post-meta-part span{
+    margin-top: 8px;
+}
+
+.posts-read-more:hover{
+    color: var(--themeHoverColor);
+    /* border-color: var(--themeHoverColor); */
+}
+
+/* .content .read-more-bttn{
+    align-self: flex-start;
+    margin-left: 0;
+    border-radius: 0;
+} 
+
+ .content .read-more-bttn{
+    background-color: #000;
+    border-color: #000;
+    align-self: flex-start;
+    margin-left: 0;
+    border-radius: 0;
+}
+
+.content .read-more-bttn:hover{
+    background-color: midnightblue;
+    border-color: midnightblue;
+} */
+
+.post-meta-part{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: justify;
+    width: 60%;
+}
+
+.post-container img{
+    width: 25vw;
+}
+
+.footer{
+    padding: 0;
+    margin: 50px 0 0 0;
+    height: 80vh;
+    background: url("https://cdn.pixabay.com/photo/2019/07/25/17/09/camp-4363073_960_720.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.footer h1{
+
+    color: #fff;
+    font-family: cursive;
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+
+}
+
+
+@media screen and (max-width: 768px){
+    #welcome h1 {
+        font-size: 4rem;
+    }
+
+    #search-bar input{
+        width: 75%;
+    }
+
+
+    .quote-info{
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .content h3{
+        font-size: 1.5rem;
+    }
+
+    .quote-info img{
+        width: 80vw;
+    }
+
+    .quote-info>div{
+        width: 80vw;
+    }
+
+    .quote{
+        margin: 2rem 0;
+        font-size: 2rem;
+    }
+
+    iframe{
+        width: 560px;
+        height: 315px;
+    }
+
+}
+
+@media screen and (max-width: 600px){
+    iframe{
+        width: 300px;
+        height: 170px;
+    }
+
+    .post-container{
+        flex-direction: column;
+        flex-flow: column-reverse;
+    }
+
+    .post-meta-part{
+        width: 100%;
+    }
+
+    .post-container img{
+        width: 80vw;
+        margin: 20px auto;
+    } 
+}
+
+@media screen and (max-width: 425px){
+    #welcome{
+        padding: 20px;
+    }
+
+    .content{
+        height: auto;
+    }
+
+    .song-title{
+        font-size: 1.8rem;
+    }
+}
